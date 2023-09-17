@@ -1,6 +1,6 @@
 <h1 align="center">Solving multiphysics-based inverse problems with learned surrogates and constraints</h1>
 
-[![][license-img]][license-status]
+[![][license-img]][license-status] [![][zenodo-img]][zenodo-status]
 
 Code to reproduce results in Ziyi Yin, Rafael Orozco, Mathias Louboutin, Felix J. Herrmann, "[Solving multiphysics-based inverse problems with learned surrogates and constraints](https://arxiv.org/abs/2307.11099)". Currently under minor revision at Advanced Modeling and Simulation in Engineering Sciences.
 
@@ -72,3 +72,5 @@ SLIM public GitHub account, [https://github.com/slimgroup](https://github.com/sl
 [InvertibleNetworks.jl]:https://github.com/slimgroup/InvertibleNetworks.jl
 [dfno]:https://github.com/slimgroup/dfno
 [Ziyi Yin]:https://ziyiyin97.github.io/
+[zenodo-status]:https://doi.org/10.5281/zenodo.8353547
+[zenodo-img]:https://zenodo.org/badge/DOI/10.5281/zenodo.8353547.svg?style=plastic
