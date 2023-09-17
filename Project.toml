@@ -1,0 +1,30 @@
+name = "FNO-NF"
+authors = ["Ziyi Yin"]
+
+[deps]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+FNO4CO2 = "4f87af30-b322-4a0d-8c7c-fe8b2256665a"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+InvertibleNetworks = "b7115f24-5f92-4794-81e8-23b0ddb121d3"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JOLI = "bb331ad6-a1cf-11e9-23da-9bcb53c69f6f"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+JUDI = "f3b833dc-6b2e-5b9c-b940-873ed6319979"
+Jutul = "2b460a1a-8a2b-45b2-b125-b5c536396eb9"
+JutulDarcy = "82210473-ab04-4dce-b31b-11573c4f8e0a"
+JutulDarcyRules = "41f0c4f5-9bdd-4ef1-8c3a-d454dff2d562"
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+ThreadPinning = "811555cd-349b-4f26-b7bc-1f208b848042"
+
+[compat]
+DrWatson = "2.12.1"
+julia = "1.8.5"

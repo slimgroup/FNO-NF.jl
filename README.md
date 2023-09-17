@@ -31,6 +31,19 @@ julia -e 'Pkg.add("DrWatson.jl")'
 julia --project -e 'using Pkg; Pkg.instantiate()'
 ```
 
+## Scripts
+
+There are 12 scripts for permeability inversion with different setups and different types of measurements, listed below.
+
+| Inversion method \ Measurement type | Well measurement | Time-lapse seismic | Both |
+|---------------------|----------|----------|--------|
+| Unconstrained inversion with PDE solvers | [well-jutul.jl](scripts/well-jutul.jl) | [seismic-jutul.jl](scripts/seismic-jutul.jl) | [combine-jutul.jl](scripts/combine-jutul.jl) |
+| Unconstrained inversion with FNO surrogates | [well-fno.jl](scripts/well-fno.jl) | [seismic-fno.jl](scripts/seismic-fno.jl) | [combine-fno.jl](scripts/combine-fno.jl) |
+| Constrained inversion with PDE solvers | [well-jutul-nf.jl](scripts/well-jutul-nf.jl) | [seismic-jutul-nf.jl](scripts/seismic-jutul-nf.jl) | [combine-jutul-nf.jl](scripts/combine-jutul-nf.jl) |
+| Constrained inversion with FNO surrogates | [well-fno-nf.jl](scripts/well-fno-nf.jl) | [seismic-fno-nf.jl](scripts/seismic-fno-nf.jl) | [combine-fno-nf.jl](scripts/combine-fno-nf.jl) |
+
+Also, the script [projection-study.jl](scripts/projection-study.jl) demonstrates a case study of the relationship between projection in the latent space (expansion or shrinkage) and the accuracy of pre-trained FNO for both in-distribution and out-of-distribution permeability samples.
+
 ## LICENSE
 
 The software used in this repository can be modified and redistributed according to [MIT license](LICENSE).
