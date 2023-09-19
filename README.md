@@ -2,7 +2,7 @@
 
 [![][license-img]][license-status] [![][zenodo-img]][zenodo-status]
 
-Code to reproduce results in Ziyi Yin, Rafael Orozco, Mathias Louboutin, Felix J. Herrmann, "[Solving multiphysics-based inverse problems with learned surrogates and constraints](https://arxiv.org/abs/2307.11099)". Currently under minor revision at Advanced Modeling and Simulation in Engineering Sciences.
+Code to reproduce results in Ziyi Yin, Rafael Orozco, Mathias Louboutin, Felix J. Herrmann, "[Solving multiphysics-based inverse problems with learned surrogates and constraints](https://arxiv.org/abs/2307.11099)". Just accepted at Advanced Modeling and Simulation in Engineering Sciences.
 
 ## Software descriptions
 
@@ -20,7 +20,7 @@ We use [JutulDarcyRules.jl] to solve the multiphase flow equations, which calls 
 
 We use [InvertibleNetworks.jl] to train the normalizing flows (NFs). This package implements memory-efficient invertible networks via hand-written derivatives. This ensures that these invertible networks are scalable to realistic 3D problems.
 
-We use [FNO4CO2.jl] to train the Fourier neural operators (FNOs) as learned surrogates for multiphase flow solvers in [JutulDarcyRules.jl]. In order for scaling to realistic 4D problems, we suggest the readers also have a look at the [dfno] package, which implements [model-parallel Fourier neural operators based on domain decomposition](https://doi.org/10.1016/j.cageo.2023.105402).
+We use [FNO4CO2.jl] to train the Fourier neural operators (FNOs) as learned surrogates for multiphase flow solvers in [JutulDarcyRules.jl]. In order for scaling to realistic 4D problems, we suggest the readers also have a look at the [dfno] package, which implements [model-parallel Fourier neural operators](https://doi.org/10.1016/j.cageo.2023.105402) that are demonstrated to scale to realistic size 4D problems (input size is over $512\times512\times512\times20$).
 
 ## Installation
 
