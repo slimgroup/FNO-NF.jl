@@ -2,7 +2,7 @@
 
 [![][license-img]][license-status] [![][zenodo-img]][zenodo-status]
 
-Code to reproduce results in Ziyi Yin, Rafael Orozco, Mathias Louboutin, Felix J. Herrmann, "[Solving multiphysics-based inverse problems with learned surrogates and constraints](https://arxiv.org/abs/2307.11099)". Just accepted at Advanced Modeling and Simulation in Engineering Sciences.
+Code to reproduce results in Ziyi Yin, Rafael Orozco, Mathias Louboutin, Felix J. Herrmann, "[Solving multiphysics-based inverse problems with learned surrogates and constraints](https://doi.org/10.1186/s40323-023-00252-0)". Published *open-access* at Advanced Modeling and Simulation in Engineering Sciences. DOI: [10.1186/s40323-023-00252-0](https://doi.org/10.1186/s40323-023-00252-0)
 
 ## Software descriptions
 

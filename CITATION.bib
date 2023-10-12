@@ -1,6 +1,12 @@
-@article{yin2023solving,
-  title={Solving multiphysics-based inverse problems with learned surrogates and constraints},
-  author={Yin, Ziyi and Orozco, Rafael and Louboutin, Mathias and Herrmann, Felix J},
-  journal={arXiv preprint arXiv:2307.11099},
-  year={2023}
+@ARTICLE{yin2023smi,
+  author = {Ziyi Yin and Rafael Orozco and Mathias Louboutin and Felix J. Herrmann},
+  title = {Solving multiphysics-based inverse problems with learned surrogates and constraints},
+  journal = {Advanced Modeling and Simulation in Engineering Sciences},
+  year = {2023},
+  month = {10},
+  volume = {10},
+  abstract = {Solving multiphysics-based inverse problems for geological carbon storage monitoring can be challenging when multimodal time-lapse data are expensive to collect and costly to simulate numerically. We overcome these challenges by combining computationally cheap learned surrogates with learned constraints. Not only does this combination lead to vastly improved inversions for the important fluid-flow property, permeability, it also provides a natural platform for inverting multimodal data including well measurements and active-source time-lapse seismic data. By adding a learned constraint, we arrive at a computationally feasible inversion approach that remains accurate. This is accomplished by including a trained deep neural network, known as a normalizing flow, which forces the model iterates to remain in-distribution, thereby safeguarding the accuracy of trained Fourier neural operators that act as surrogates for the computationally expensive multiphase flow simulations involving partial differential equation solves. By means of carefully selected experiments, centered around the problem of geological carbon storage, we demonstrate the efficacy of the proposed constrained optimization method on two different data modalities, namely time-lapse well and time-lapse seismic data. While permeability inversions from both these two modalities have their pluses and minuses, their joint inversion benefits from either, yielding valuable superior permeability inversions and CO2 plume predictions near, and far away, from the monitoring wells.},
+  keywords = {AMSES, Fourier neural operators, normalizing flows, multiphysics, deep learning, learned surrogates, learned constraints, inverse problems},
+  doi = {10.1186/s40323-023-00252-0},
+  note = {(Advanced Modeling and Simulation in Engineering Sciences)}
 }
