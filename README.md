@@ -24,12 +24,7 @@ We use [FNO4CO2.jl] to train the Fourier neural operators (FNOs) as learned surr
 
 ## Installation
 
-First, install [Julia](https://julialang.org/) and [Python](https://www.python.org/). Next, run the command below to install the required packages.
-
-```bash
-julia -e 'Pkg.add("DrWatson.jl")'
-julia --project -e 'using Pkg; Pkg.instantiate()'
-```
+First, install [Julia](https://julialang.org/) and [Python](https://www.python.org/). The scripts will contain package installation commands at the beginning so the packages used in the experiments will be automatically installed.
 
 ## Scripts
 

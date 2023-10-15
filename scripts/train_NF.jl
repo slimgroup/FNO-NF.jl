@@ -1,5 +1,6 @@
 using DrWatson
 @quickactivate "FNO-NF"
+using Pkg; Pkg.add(url="https://github.com/slimgroup/FNO4CO2/", rev="v1.1.4")
 using Pkg; Pkg.instantiate()
 using InvertibleNetworks
 using JLD2
